@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rose-day-wishing-game"
+version = "1.0.0"
+authors = [
+  { name="Ahmad Hassan", email="ahmad@example.com" },
+]
+description = "A professional, production-grade Rose Day wishing game built with Pygame."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+]
+dependencies = [
+    "pygame>=2.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AhmadHassan-BTed/Rose-Day-Wishing-Game"
+"Bug Tracker" = "https://github.com/AhmadHassan-BTed/Rose-Day-Wishing-Game/issues"
+
+[tool.setuptools]
+packages = ["src", "src.config", "src.core", "src.engine", "src.entities", "src.services", "src.story", "src.ui", "src.utils", "src.world"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "N"]
+ignore = []

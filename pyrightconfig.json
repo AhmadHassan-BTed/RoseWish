@@ -1,0 +1,21 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "executionEnvironments": [
+        {
+            "root": "."
+        }
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Windows",
+    "extraPaths": [
+        "."
+    ]
+}

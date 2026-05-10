@@ -1,0 +1,13 @@
+# Rose-Day-Wishing-Game Git Attributes
+* text=auto eol=lf
+
+# Binary files
+*.mp3 binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
+
+# Shell scripts
+*.sh text eol=lf
+*.py text eol=lf
