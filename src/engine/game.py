@@ -16,6 +16,7 @@ from src.utils.thoughts import ThoughtManager
 
 class GameEngine:
     def __init__(self):
+        pygame.init()
         self.renderer = RenderService()
         self.audio = AudioService()
         Registry.register(RenderService, self.renderer)
