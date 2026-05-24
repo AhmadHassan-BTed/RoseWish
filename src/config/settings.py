@@ -10,27 +10,27 @@ load_dotenv(BASE_DIR / ".env")
 
 class Settings:
     # Game Settings
-    WINDOW_TITLE = os.getenv("WINDOW_TITLE", "Beenie kay liyeee Gameeee")
+    WINDOW_TITLE = os.getenv("WINDOW_TITLE", "Rose Day Special")
     WINDOW_WIDTH = int(os.getenv("WINDOW_WIDTH", 1000))
     WINDOW_HEIGHT = int(os.getenv("WINDOW_HEIGHT", 700))
     FPS = int(os.getenv("FPS", 60))
     PIXEL_SIZE = 4
 
     # Character Names
-    PLAYER_NAME = os.getenv("PLAYER_NAME", "Ahmad")
-    PARTNER_NAME = os.getenv("PARTNER_NAME", "Beenie")
+    PLAYER_NAME = os.getenv("PLAYER_NAME", "Honey")
+    PARTNER_NAME = os.getenv("PARTNER_NAME", "Sweetie")
 
-    # Messages (Original Urdu/English mix)
-    INTRO_MESSAGE = os.getenv("INTRO_MESSAGE", "Kal ka din....")
-    MEETING_MESSAGE = os.getenv("MEETING_MESSAGE", "waohhh.....koi a rha hayyyy....")
-    PLAYER_GREETING = os.getenv("PLAYER_GREETING", "Kesi hain meri pyari jaaannnn...")
-    PARTNER_REPLY = os.getenv("PARTNER_REPLY", "Theak hun.....")
-    PLAYER_ADVICE = os.getenv("PLAYER_ADVICE", "Aryyy, sirif theak, ap to itii thaki thaki lag rahi hain, thoru sa so jayen naww...")
-    PARTNER_AGREE = os.getenv("PARTNER_AGREE", "ohhh....okieeee...")
-    REVEAL_MESSAGE = os.getenv("REVEAL_MESSAGE", "Yae Phul, meri Rosey kay liye, Meri Ghulabo kay liye... I love you, meri pyari jaan. Happy Rose Day! 🌹")
-    MARRIAGE_MESSAGE_1 = os.getenv("MARRIAGE_MESSAGE_1", "Happy Rose Day, Beenie Beghum")
-    MARRIAGE_MESSAGE_2 = os.getenv("MARRIAGE_MESSAGE_2", "Thenkeww for being my roseyy, or red red apki cheeks and nosey. Allah talla meri pyar beghum ki cheeks ko asy hi hasta muskurata and rose red rakhy")
-    FINAL_MESSAGE = os.getenv("FINAL_MESSAGE", "Me rasgulla, my roseie, meri golgappa, My Shamooo...MUUAAHHH. \nHappy Rose Day Meri Pyari Beghum")
+    # Messages
+    INTRO_MESSAGE = os.getenv("INTRO_MESSAGE", "A special day is dawning...")
+    MEETING_MESSAGE = os.getenv("MEETING_MESSAGE", "Someone special is approaching...")
+    PLAYER_GREETING = os.getenv("PLAYER_GREETING", "How are you, my love?")
+    PARTNER_REPLY = os.getenv("PARTNER_REPLY", "I am wonderful, just a bit tired...")
+    PLAYER_ADVICE = os.getenv("PLAYER_ADVICE", "You've been working so hard. Rest your eyes for a moment...")
+    PARTNER_AGREE = os.getenv("PARTNER_AGREE", "You're right... I'll take a quick nap...")
+    REVEAL_MESSAGE = os.getenv("REVEAL_MESSAGE", "A rose for my most beautiful flower. I love you more than words can say. Happy Rose Day! 🌹")
+    MARRIAGE_MESSAGE_1 = os.getenv("MARRIAGE_MESSAGE_1", "Happy Rose Day, my beautiful spouse.")
+    MARRIAGE_MESSAGE_2 = os.getenv("MARRIAGE_MESSAGE_2", "Thank you for making every day feel like a dream. May our love bloom forever like this rose.")
+    FINAL_MESSAGE = os.getenv("FINAL_MESSAGE", "My heart, my soul, my everything...\nHappy Rose Day, My Love!")
 
     # Assets
     MUSIC_PATH = str(BASE_DIR / os.getenv("MUSIC_PATH", "assets/music.mp3"))
