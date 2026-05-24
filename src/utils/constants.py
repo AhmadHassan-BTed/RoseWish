@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class GameState(Enum):
     TITLE = "title"
     INTRO = "intro"

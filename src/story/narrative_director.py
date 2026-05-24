@@ -1,7 +1,9 @@
 from dataclasses import dataclass
-from typing import List, Dict, Optional
+from typing import List
+
 from src.config.settings import settings
 from src.core.event_bus import event_bus
+
 
 @dataclass
 class DialogueLine:
@@ -9,11 +11,13 @@ class DialogueLine:
     text: str
     duration: float
 
+
 class NarrativeDirector:
     """
     Manages the story progression independently of game systems.
     Communicates via the EventBus to trigger UI and animations.
     """
+
     def __init__(self):
         self.current_state = "START"
         self.timer = 0
@@ -37,4 +41,9 @@ class NarrativeDirector:
             if self.timer <= 0:
                 line = self.dialogue_queue.pop(0)
                 self.timer = line.duration
-                event_bus.emit("DIALOGUE_TRIGGERED", speaker=line.speaker, message=line.text, duration=line.duration)
+                event_bus.emit(
+                    "DIALOGUE_TRIGGERED",
+                    speaker=line.speaker,
+                    message=line.text,
+                    duration=line.duration,
+                )

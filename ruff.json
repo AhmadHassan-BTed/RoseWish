@@ -1,0 +1,38 @@
+[
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 102,
+      "row": 36
+    },
+    "filename": "P:\\extensions\\Rose-Day-Wishing-Game\\src\\config\\settings.py",
+    "fix": null,
+    "location": {
+      "column": 100,
+      "row": 36
+    },
+    "message": "Line too long (102 > 100)",
+    "noqa_row": 36,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  },
+  {
+    "cell": null,
+    "code": "E501",
+    "end_location": {
+      "column": 104,
+      "row": 41
+    },
+    "filename": "P:\\extensions\\Rose-Day-Wishing-Game\\src\\config\\settings.py",
+    "fix": null,
+    "location": {
+      "column": 101,
+      "row": 41
+    },
+    "message": "Line too long (103 > 100)",
+    "noqa_row": 41,
+    "severity": "error",
+    "url": "https://docs.astral.sh/ruff/rules/line-too-long"
+  }
+]

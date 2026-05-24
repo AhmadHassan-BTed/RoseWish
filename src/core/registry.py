@@ -2,11 +2,13 @@ from typing import Any, Dict, Type, TypeVar
 
 T = TypeVar("T")
 
+
 class Registry:
     """
     A central registry for services and providers.
     Facilitates modularity and prevents direct dependency on concrete implementations.
     """
+
     _services: Dict[Type, Any] = {}
 
     @classmethod
@@ -19,6 +21,7 @@ class Registry:
         if not service:
             raise RuntimeError(f"Service {service_type.__name__} not registered.")
         return service
+
 
 # Shortcut for dependency injection
 def inject(service_type: Type[T]) -> T:

@@ -1,12 +1,14 @@
-from typing import Dict, Type, TypeVar, Optional, List, Any
+from typing import Any, Dict, List, Optional, Type, TypeVar
 
 T = TypeVar("T")
 
+
 class Entity:
     """
-    A generic container for components. 
+    A generic container for components.
     The core of the ECS-lite architecture.
     """
+
     def __init__(self, name: str = "Entity"):
         self.name = name
         self.components: Dict[Type, Any] = {}
@@ -22,10 +24,12 @@ class Entity:
     def has_component(self, component_type: Type) -> bool:
         return component_type in self.components
 
+
 class World:
     """
     Manages all entities and systems.
     """
+
     def __init__(self):
         self.entities: List[Entity] = []
 
@@ -37,4 +41,3 @@ class World:
     def remove_entity(self, entity: Entity):
         if entity in self.entities:
             self.entities.remove(entity)
-

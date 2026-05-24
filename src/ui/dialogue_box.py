@@ -1,5 +1,7 @@
 import pygame
+
 from src.config.settings import settings
+
 
 class DialogueBox:
     def __init__(self):
@@ -29,15 +31,15 @@ class DialogueBox:
         box_height = 120
         box_x = (settings.WINDOW_WIDTH - box_width) // 2
         box_y = settings.WINDOW_HEIGHT - box_height - 20
-        
+
         # Box background and border
         pygame.draw.rect(screen, settings.WHITE, (box_x, box_y, box_width, box_height))
         pygame.draw.rect(screen, settings.ROSE_RED, (box_x, box_y, box_width, box_height), 4)
-        
+
         # Speaker name
         name_text = self.font_name.render(self.speaker, True, settings.WINE_RED)
         screen.blit(name_text, (box_x + 20, box_y + 10))
-        
+
         # Message with wrapping
         words = self.message.split()
         lines = []
@@ -50,7 +52,7 @@ class DialogueBox:
                 lines.append(current_line)
                 current_line = word + " "
         lines.append(current_line)
-        
+
         y_offset = box_y + 45
         for line in lines[:2]:  # Limit to 2 lines as in original
             msg_text = self.font_msg.render(line.strip(), True, settings.BLACK)

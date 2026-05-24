@@ -1,5 +1,7 @@
 import pygame
+
 from src.config.settings import settings
+
 
 class AudioService:
     def __init__(self):

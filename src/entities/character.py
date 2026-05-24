@@ -1,7 +1,5 @@
 import pygame
-import math
-from typing import Tuple
-from src.config.settings import settings
+
 
 class Character:
     def __init__(self, x: float, y: float, scale: int = 4):
@@ -21,6 +19,6 @@ class Character:
                 self.anim_frame = (self.anim_frame + 1) % 4
             else:
                 self.anim_frame = (self.anim_frame + 1) % 8
-    
+
     def draw(self, screen: pygame.Surface):
         raise NotImplementedError("Subclasses must implement draw()")
