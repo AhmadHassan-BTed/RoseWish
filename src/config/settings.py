@@ -36,6 +36,10 @@ class Settings:
     MUSIC_PATH = str(BASE_DIR / os.getenv("MUSIC_PATH", "assets/music.mp3"))
     VOLUME = float(os.getenv("VOLUME", 0.5))
 
+    # Titles
+    MAIN_TITLE = os.getenv("MAIN_TITLE", "A Romantic Game")
+    SUB_TITLE = os.getenv("SUB_TITLE", "A beautiful story")
+
     # Colors
     WHITE = (255, 255, 255)
     BLACK = (20, 20, 30)

@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/Screenshots/0.png" width="100%" alt="Rose Day Wishing Game Banner" />
+
+<br />
+
 # 🌹 Rose Day Special: Wishing Game 🌹
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
@@ -28,6 +32,21 @@ Built on a professional, service-oriented architecture, it seamlessly blends eng
 > *"Like a rose, a project is beautiful not just in its bloom, but in the care put into its roots."*
 
 This project was built to demonstrate clean engineering practices in game development while providing a meaningful, personalized gift experience.
+
+---
+
+## 📸 Gallery
+
+<p align="center">
+  <img src="assets/Screenshots/1.png" width="30%" />
+  <img src="assets/Screenshots/2.png" width="30%" />
+  <img src="assets/Screenshots/3.png" width="30%" />
+</p>
+<p align="center">
+  <img src="assets/Screenshots/4.png" width="30%" />
+  <img src="assets/Screenshots/5.png" width="30%" />
+  <img src="assets/Screenshots/6.png" width="30%" />
+</p>
 
 ---
 
