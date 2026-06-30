@@ -34,7 +34,7 @@ class Settings:
     REVEAL_MESSAGE = os.getenv(
         "REVEAL_MESSAGE",
         "A rose for my most beautiful flower. I love you more than words can say. "
-        "Happy Rose Day! 🌹",
+        "Happy Rose Day! ",
     )
     MARRIAGE_MESSAGE_1 = os.getenv("MARRIAGE_MESSAGE_1", "Happy Rose Day, my beautiful spouse.")
     MARRIAGE_MESSAGE_2 = os.getenv(

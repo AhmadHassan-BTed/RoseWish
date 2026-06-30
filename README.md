@@ -4,7 +4,7 @@
 
 <br />
 
-# 🌹 Rose Day Special: Wishing Game 🌹
+#  Rose Day Special: Wishing Game 
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -20,7 +20,7 @@ _Designed by Ahmad Hassan (B-Ted)_
 
 ---
 
-### 💝 A Gift for Your Loved One
+###  A Gift for Your Loved One
 This game was crafted as a heartfelt way to express your love. Use it to wish your special someone a Happy Rose Day, customize it with your private memories, and let the pixel-art magic do the rest. It's not just a game; it's a personalized wish wrapped in code.
 
 ---
@@ -35,7 +35,7 @@ This project was built to demonstrate clean engineering practices in game develo
 
 ---
 
-## 📸 Gallery
+##  Gallery
 
 <p align="center">
   <img src="assets/Screenshots/1.png" width="30%" />
@@ -50,7 +50,7 @@ This project was built to demonstrate clean engineering practices in game develo
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Heartfelt Narrative**: A multi-stage state machine that guides **MrLover** and **MissLovely** through their special day.
 - **Dreamy Environments**: Hand-crafted pixel-art backgrounds that shift from the warmth of the sun to the mystery of the evening and the sparkles of a dream.
@@ -60,7 +60,7 @@ This project was built to demonstrate clean engineering practices in game develo
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The repository follows a modern decoupled structure, ensuring 100% cohesion and minimal coupling between systems.
 
@@ -118,7 +118,7 @@ classDiagram
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 Rose-Day-Wishing-Game/
@@ -139,7 +139,7 @@ Rose-Day-Wishing-Game/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 
@@ -175,7 +175,7 @@ python src/main.py
 
 ---
 
-## 🛠️ Data Flow & Lifecycle
+##  Data Flow & Lifecycle
 
 1. **Initialization**: The `GameEngine` initializes services and registers them in the central `Registry`.
 2. **Configuration**: Settings are loaded from `.env` and validated via the `config` module.
@@ -187,7 +187,7 @@ python src/main.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions that improve architecture, performance, or narrative depth are welcomed.
 
@@ -197,7 +197,7 @@ Contributions that improve architecture, performance, or narrative depth are wel
 
 ---
 
-## 🛡️ License & Credits
+##  License & Credits
 
 - **Author**: Ahmad Hassan (B-Ted)
 - **License**: [MIT License](LICENSE)
@@ -205,5 +205,5 @@ Contributions that improve architecture, performance, or narrative depth are wel
 
 <div align="center">
     <h3>Every rose has a story. This one is yours.</h3>
-    <i>Designed for the one who makes your world bloom. On this special Rose Day. 🌹</i>
+    <i>Designed for the one who makes your world bloom. On this special Rose Day. </i>
 </div>
