@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/Screenshots/0.png" width="100%" alt="Rose Day Wishing Game Banner" />
+<img src="assets/Screenshots/0.png" width="100%" alt="RoseWish Banner" />
 
 <br />
 
-#  Rose Day Special: Wishing Game 
+# RoseWish 🌹
+
+### *Rose Day Special: Wishing Visual Novel*
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,7 +14,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **A high-fidelity, story-driven pixel art experience crafted for the spirit of Rose Day.**
-_Designed by Ahmad Hassan (B-Ted)_
+*Designed by Ahmad Hassan (B-Ted).*
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Architecture](#-architecture) • [Contributing](#-contributing)
 
